@@ -1,0 +1,12 @@
+<launch>
+    <node name="green1" pkg="p_fyou_core" type="chase3.py"/>
+    <node name="red1" pkg="p_fyou_core" type="chase2.py"/>
+    <node name="blue1" pkg="p_fyou_core" type="chase.py"/>
+    <node name="green2" pkg="p_fyou_core" type="chase3.py"/>
+    <node name="red2" pkg="p_fyou_core" type="chase2.py"/>
+    <node name="blue2" pkg="p_fyou_core" type="chase.py"/>
+    <node name="green3" pkg="p_fyou_core" type="chase3.py"/>
+    <node name="red3" pkg="p_fyou_core" type="chase2.py"/>
+    <node name="blue3" pkg="p_fyou_core" type="chase.py"/>
+
+</launch>
